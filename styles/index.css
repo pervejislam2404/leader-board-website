@@ -234,6 +234,34 @@ p {
 /* footer-course-section-deisgn  */
 
 
+/*--------------- details-section */
+
+.details-footer {
+    background-color: darkgreen;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 150%;
+}
+
+.details-footer .first {
+    color: black;
+}
+
+.details-footer .second {
+    color: rgb(189, 125, 6);
+}
+
+.details-footer .third {
+    color: rgb(15, 7, 128);
+    margin-left: 5px;
+}
+
+
+/* details-section */
+
+
 /* for-mobile-view-media-queries */
 
 @media (max-width: 840px) {
