@@ -168,6 +168,11 @@ footer {
     margin: 20px 0 40px 30px;
 }
 
+.course-description>h2,
+p {
+    margin-left: 10px;
+}
+
 .course-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -195,6 +200,36 @@ footer {
     height: 105.51px;
 }
 
+.ratting-section,
+.time-zone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orange {
+    color: orange;
+}
+
+.grey,
+.value {
+    color: rgb(167, 167, 167);
+}
+
+.time-zone {
+    padding: 5px 10px;
+    background-color: rgba(253, 105, 150, 0.726);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.time-zone p {
+    margin: 0;
+}
+
 
 /* footer-course-section-deisgn  */
 
@@ -212,8 +247,14 @@ footer {
     .blogs .blogs-section {
         grid-template-columns: repeat(1, 1fr);
     }
+    .article img {
+        width: 168px;
+    }
     footer {
         width: 100%;
+    }
+    .course {
+        margin-top: 20px;
     }
     .horizontal {
         width: 0;
